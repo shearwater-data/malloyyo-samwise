@@ -1,0 +1,13 @@
+order_id,order_date,customer,region,product,quantity,unit_price
+1,2026-01-05,Acme Co,West,Widget,3,19.99
+2,2026-01-07,Acme Co,West,Gadget,1,49.99
+3,2026-01-10,Beta LLC,East,Widget,5,19.99
+4,2026-01-14,Beta LLC,East,Gizmo,2,29.99
+5,2026-01-18,Gamma Inc,South,Gadget,4,49.99
+6,2026-01-22,Delta Corp,North,Widget,2,19.99
+7,2026-01-25,Gamma Inc,South,Gizmo,1,29.99
+8,2026-01-29,Acme Co,West,Gizmo,3,29.99
+9,2026-02-02,Beta LLC,East,Gadget,2,49.99
+10,2026-02-06,Delta Corp,North,Gadget,1,49.99
+11,2026-02-09,Gamma Inc,South,Widget,6,19.99
+12,2026-02-13,Delta Corp,North,Gizmo,3,29.99

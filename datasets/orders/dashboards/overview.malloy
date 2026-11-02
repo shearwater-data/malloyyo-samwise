@@ -1,0 +1,14 @@
+import "../orders.malloy"
+
+#" Orders read from a local CSV file via DuckDB.
+# artifact { title="Orders Overview" } dashboard {columns=6}
+query: overview is orders -> {
+  # colspan=2
+  aggregate: order_count, total_revenue, avg_order_value
+  # colspan=4
+  nest:
+    # bar_chart
+    revenue_by_region is by_region
+    # bar_chart
+    revenue_by_product is by_product
+}

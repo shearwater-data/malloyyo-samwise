@@ -1,0 +1,7 @@
+##" Sample orders dataset, sourced from a local CSV file to demonstrate
+##" reading CSV/Parquet inputs with DuckDB.
+## dataset { title="Sample Orders" }
+
+import { orders } from 'orders.malloy'
+
+export { orders }

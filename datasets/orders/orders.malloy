@@ -1,0 +1,17 @@
+#" Order line items read from a local CSV file via DuckDB.
+source: orders is duckdb.table('datasets/orders/data/orders.csv') extend {
+  measure:
+    order_count is count()
+    total_revenue is sum(quantity * unit_price)
+    avg_order_value is total_revenue / order_count
+
+  view: by_region is {
+    group_by: region
+    aggregate: order_count, total_revenue
+  }
+
+  view: by_product is {
+    group_by: product
+    aggregate: order_count, total_revenue
+  }
+}
