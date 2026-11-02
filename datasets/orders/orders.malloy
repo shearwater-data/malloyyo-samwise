@@ -1,5 +1,5 @@
 #" Order line items read from a local CSV file via DuckDB.
-source: orders is duckdb.table('datasets/orders/data/orders.csv') extend {
+source: orders is duckdb.table('data/orders.csv') extend {
   measure:
     order_count is count()
     total_revenue is sum(quantity * unit_price)

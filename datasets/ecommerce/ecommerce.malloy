@@ -5,25 +5,25 @@
 //  Kaggle access, so the data was generated locally rather than pulled live.
 
 #" Warehouses that ship orders.
-source: distribution_centers is duckdb.table('datasets/ecommerce/data/distribution_centers.csv')
+source: distribution_centers is duckdb.table('data/distribution_centers.csv')
 
 #" The product catalog: category, brand, department, price and cost.
-source: products is duckdb.table('datasets/ecommerce/data/products.csv') extend {
+source: products is duckdb.table('data/products.csv') extend {
   join_one: distribution_center is distribution_centers on distribution_center_id = distribution_center.id
 }
 
 #" Customers who placed orders.
-source: users is duckdb.table('datasets/ecommerce/data/users.csv') extend {
+source: users is duckdb.table('data/users.csv') extend {
   measure: user_count is count()
 }
 
 #" One row per order, with its status and item count.
-source: orders is duckdb.table('datasets/ecommerce/data/orders.csv') extend {
+source: orders is duckdb.table('data/orders.csv') extend {
   measure: order_count is count()
 }
 
 #" Order line items -- the main grain for revenue and product analysis.
-source: order_items is duckdb.table('datasets/ecommerce/data/order_items.csv') extend {
+source: order_items is duckdb.table('data/order_items.csv') extend {
   join_one: product is products on product_id = product.id
   join_one: order is orders on order_id = order.order_id
   join_one: user is users on user_id = user.id
