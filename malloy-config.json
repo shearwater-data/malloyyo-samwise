@@ -3,5 +3,10 @@
     "duckdb": {
       "is": "duckdb"
     }
+  },
+  "malloyyo": {
+    "targets": {
+      "prod": { "url": "https://samwise.malloyyo.com" }
+    }
   }
 }
