@@ -1,5 +1,10 @@
-#" Order line items read from a local CSV file via DuckDB.
-source: orders is duckdb.table('data/orders.csv') extend {
+//  Data is read over HTTPS: a published/hosted malloyyo instance only ships
+//  model code, never local repo files, so the connection needs a URL it can
+//  reach itself. Raw GitHub content works because this repo is public.
+#" Order line items read from a CSV file via DuckDB (over HTTPS).
+source: orders is duckdb.sql(
+  "SELECT * FROM read_csv_auto('https://raw.githubusercontent.com/shearwater-data/malloyyo-samwise/main/datasets/orders/data/orders.csv')"
+) extend {
   measure:
     order_count is count()
     total_revenue is sum(quantity * unit_price)
