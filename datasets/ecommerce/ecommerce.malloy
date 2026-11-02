@@ -1,0 +1,69 @@
+//  Synthetic ecommerce sample, shaped like the public BigQuery dataset
+//  `bigquery-public-data.thelook_ecommerce` (same table/column names) so it
+//  demonstrates the same kind of model you'd build against the real thing.
+//  The rows themselves are fabricated -- this session had no BigQuery or
+//  Kaggle access, so the data was generated locally rather than pulled live.
+
+#" Warehouses that ship orders.
+source: distribution_centers is duckdb.table('datasets/ecommerce/data/distribution_centers.csv')
+
+#" The product catalog: category, brand, department, price and cost.
+source: products is duckdb.table('datasets/ecommerce/data/products.csv') extend {
+  join_one: distribution_center is distribution_centers on distribution_center_id = distribution_center.id
+}
+
+#" Customers who placed orders.
+source: users is duckdb.table('datasets/ecommerce/data/users.csv') extend {
+  measure: user_count is count()
+}
+
+#" One row per order, with its status and item count.
+source: orders is duckdb.table('datasets/ecommerce/data/orders.csv') extend {
+  measure: order_count is count()
+}
+
+#" Order line items -- the main grain for revenue and product analysis.
+source: order_items is duckdb.table('datasets/ecommerce/data/order_items.csv') extend {
+  join_one: product is products on product_id = product.id
+  join_one: order is orders on order_id = order.order_id
+  join_one: user is users on user_id = user.id
+
+  measure:
+    item_count is count()
+    order_count is count(order_id)
+    customer_count is count(user_id)
+    total_revenue is sum(sale_price)
+    avg_order_value is total_revenue / order_count
+
+  view: by_month is {
+    group_by: order_month is created_at.month
+    aggregate: total_revenue, order_count
+  }
+
+  view: by_category is {
+    group_by: category is product.category
+    aggregate: total_revenue, item_count
+  }
+
+  view: by_department is {
+    group_by: department is product.department
+    aggregate: total_revenue, item_count
+  }
+
+  view: by_brand is {
+    group_by: brand is product.brand
+    aggregate: total_revenue, item_count
+  }
+
+  view: by_status is {
+    group_by: status
+    aggregate: item_count, total_revenue
+  }
+
+  view: top_products is {
+    group_by: name is product.name
+    aggregate: total_revenue, item_count
+    order_by: total_revenue desc
+    limit: 10
+  }
+}

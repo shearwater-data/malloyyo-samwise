@@ -1,0 +1,8 @@
+##" Synthetic ecommerce sample shaped like BigQuery's thelook_ecommerce
+##" dataset (orders, order_items, products, users, distribution_centers),
+##" generated locally since this session had no BigQuery/Kaggle access.
+## dataset { title="Ecommerce (Sample)" }
+
+import { order_items, orders, products, users, distribution_centers } from 'ecommerce.malloy'
+
+export { order_items, orders, products, users, distribution_centers }

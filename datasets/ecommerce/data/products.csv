@@ -1,0 +1,121 @@
+id,cost,category,name,brand,retail_price,department,sku,distribution_center_id
+1,27.65,Tops & Tees,Fox Tops & Tees,Fox,66.31,Women,SKU000001,1
+2,5.57,Swim,Volcom Swim,Volcom,14.74,Women,SKU000002,2
+3,89.55,Swim,Carhartt Swim,Carhartt,159.8,Women,SKU000003,4
+4,40.91,Jeans,Puma Jeans,Puma,66.98,Women,SKU000004,2
+5,31.07,Sweaters,Levi's Sweater,Levi's,53.65,Men,SKU000005,1
+6,34.74,Sweaters,Bench Sweaters,Bench,80.92,Women,SKU000006,1
+7,74.87,Jeans,Nike Jeans,Nike,125.03,Women,SKU000007,5
+8,57.24,Outerwear & Coats,Carhartt Outerwear & Coats,Carhartt,157.37,Men,SKU000008,2
+9,88.95,Leggings,Carhartt Leggings,Carhartt,191.69,Women,SKU000009,4
+10,45.91,Jeans,Hanes Jeans,Hanes,83.32,Men,SKU000010,1
+11,29.27,Swim,Fox Swim,Fox,59.9,Women,SKU000011,3
+12,108.8,Outerwear & Coats,Hanes Outerwear & Coats,Hanes,186.68,Women,SKU000012,2
+13,13.75,Shorts,Allegra K Shorts,Allegra K,22.03,Men,SKU000013,5
+14,70.06,Jeans,Zumba Jean,Zumba,113.84,Men,SKU000014,4
+15,54.46,Dresses,Fox Dresses,Fox,127.01,Women,SKU000015,5
+16,85.91,Sweaters,Carhartt Sweater,Carhartt,219.43,Men,SKU000016,4
+17,16.08,Leggings,Nike Leggings,Nike,40.4,Women,SKU000017,4
+18,111.5,Shorts,Puma Shorts,Puma,219.18,Men,SKU000018,5
+19,19.87,Outerwear & Coats,Fox Outerwear & Coats,Fox,32.28,Women,SKU000019,3
+20,48.69,Shirts,Allegra K Shirts,Allegra K,100.17,Men,SKU000020,3
+21,16.43,Swim,Southpole Swim,Southpole,30.56,Women,SKU000021,5
+22,86.83,Dresses,Hanes Dresses,Hanes,169.65,Women,SKU000022,5
+23,14.56,Shorts,Calvin Klein Short,Calvin Klein,31.72,Men,SKU000023,3
+24,12.97,Swim,Nike Swim,Nike,26.16,Women,SKU000024,1
+25,56.0,Dresses,Zumba Dresses,Zumba,108.76,Women,SKU000025,3
+26,69.6,Jeans,Southpole Jeans,Southpole,122.33,Men,SKU000026,2
+27,54.04,Active,Zumba Active,Zumba,87.17,Men,SKU000027,4
+28,7.69,Dresses,Carhartt Dresse,Carhartt,21.57,Women,SKU000028,5
+29,58.11,Tops & Tees,Nike Tops & Tees,Nike,158.06,Women,SKU000029,1
+30,32.19,Shirts,Tommy Hilfiger Shirts,Tommy Hilfiger,58.46,Men,SKU000030,2
+31,51.12,Jeans,Hurley Jean,Hurley,108.27,Men,SKU000031,1
+32,57.96,Sweaters,Volcom Sweaters,Volcom,95.15,Men,SKU000032,1
+33,95.83,Tops & Tees,Volcom Tops & Tee,Volcom,162.38,Women,SKU000033,1
+34,15.28,Swim,Diesel Swim,Diesel,37.72,Women,SKU000034,4
+35,14.21,Leggings,Southpole Legging,Southpole,23.98,Women,SKU000035,5
+36,70.61,Tops & Tees,Southpole Tops & Tees,Southpole,167.76,Women,SKU000036,4
+37,79.61,Leggings,Volcom Leggings,Volcom,199.32,Women,SKU000037,1
+38,49.82,Suits,Hurley Suits,Hurley,104.46,Men,SKU000038,5
+39,45.42,Jeans,Carhartt Jeans,Carhartt,70.9,Men,SKU000039,5
+40,10.57,Outerwear & Coats,Hanes Outerwear & Coats,Hanes,20.12,Women,SKU000040,5
+41,10.14,Tops & Tees,Tommy Hilfiger Tops & Tee,Tommy Hilfiger,24.98,Women,SKU000041,5
+42,108.15,Jeans,Nike Jeans,Nike,207.62,Women,SKU000042,5
+43,66.77,Jeans,Zumba Jean,Zumba,131.74,Women,SKU000043,3
+44,50.69,Jeans,Allegra K Jeans,Allegra K,91.91,Men,SKU000044,3
+45,72.48,Tops & Tees,Diesel Tops & Tee,Diesel,139.69,Women,SKU000045,1
+46,16.41,Swim,Allegra K Swim,Allegra K,36.08,Women,SKU000046,1
+47,24.87,Sweaters,Allegra K Sweaters,Allegra K,41.44,Women,SKU000047,3
+48,79.06,Outerwear & Coats,Bench Outerwear & Coats,Bench,125.58,Women,SKU000048,1
+49,112.61,Sweaters,Nike Sweater,Nike,196.62,Women,SKU000049,2
+50,27.64,Outerwear & Coats,Hanes Outerwear & Coats,Hanes,51.16,Women,SKU000050,3
+51,13.15,Suits,Calvin Klein Suit,Calvin Klein,27.57,Men,SKU000051,3
+52,61.32,Suits,Levi's Suits,Levi's,143.07,Men,SKU000052,4
+53,20.1,Outerwear & Coats,Calvin Klein Outerwear & Coats,Calvin Klein,31.72,Men,SKU000053,2
+54,15.3,Outerwear & Coats,Tommy Hilfiger Outerwear & Coats,Tommy Hilfiger,39.4,Men,SKU000054,3
+55,83.94,Sweaters,Carhartt Sweaters,Carhartt,152.6,Women,SKU000055,3
+56,25.64,Outerwear & Coats,Fox Outerwear & Coats,Fox,40.77,Men,SKU000056,2
+57,28.87,Jeans,Calvin Klein Jeans,Calvin Klein,46.02,Women,SKU000057,4
+58,66.89,Sweaters,Levi's Sweaters,Levi's,174.92,Women,SKU000058,1
+59,92.21,Dresses,Bench Dresse,Bench,202.71,Women,SKU000059,2
+60,24.87,Jeans,Hanes Jeans,Hanes,67.06,Women,SKU000060,3
+61,76.87,Active,Bench Active,Bench,121.68,Men,SKU000061,1
+62,91.11,Jeans,Puma Jeans,Puma,212.06,Men,SKU000062,1
+63,39.62,Active,Hurley Active,Hurley,74.5,Men,SKU000063,5
+64,55.54,Jeans,Southpole Jean,Southpole,130.24,Women,SKU000064,4
+65,12.54,Sweaters,Volcom Sweaters,Volcom,22.83,Women,SKU000065,3
+66,31.73,Outerwear & Coats,Southpole Outerwear & Coats,Southpole,71.67,Women,SKU000066,4
+67,26.74,Outerwear & Coats,Levi's Outerwear & Coats,Levi's,48.67,Men,SKU000067,4
+68,36.93,Swim,Puma Swim,Puma,71.8,Women,SKU000068,1
+69,51.95,Sweaters,Carhartt Sweaters,Carhartt,99.14,Men,SKU000069,3
+70,68.44,Active,Carhartt Active,Carhartt,116.37,Men,SKU000070,2
+71,79.69,Sweaters,Tommy Hilfiger Sweaters,Tommy Hilfiger,148.74,Women,SKU000071,1
+72,22.79,Outerwear & Coats,Allegra K Outerwear & Coat,Allegra K,55.62,Women,SKU000072,1
+73,83.17,Outerwear & Coats,Bench Outerwear & Coat,Bench,170.92,Men,SKU000073,5
+74,32.66,Shorts,Volcom Shorts,Volcom,59.72,Men,SKU000074,1
+75,32.16,Leggings,Volcom Leggings,Volcom,54.39,Women,SKU000075,5
+76,61.86,Leggings,Nike Leggings,Nike,104.77,Women,SKU000076,5
+77,60.54,Suits,Southpole Suits,Southpole,101.83,Men,SKU000077,5
+78,92.46,Jeans,Fox Jeans,Fox,190.64,Men,SKU000078,2
+79,63.77,Suits,Hurley Suits,Hurley,118.52,Men,SKU000079,3
+80,48.94,Jeans,Allegra K Jean,Allegra K,79.2,Men,SKU000080,1
+81,16.73,Jeans,Fox Jeans,Fox,40.39,Women,SKU000081,4
+82,24.68,Shorts,Calvin Klein Shorts,Calvin Klein,51.85,Men,SKU000082,5
+83,79.04,Leggings,Southpole Leggings,Southpole,170.31,Women,SKU000083,1
+84,120.16,Suits,Volcom Suits,Volcom,188.93,Men,SKU000084,4
+85,32.65,Jeans,Carhartt Jeans,Carhartt,65.86,Women,SKU000085,4
+86,116.53,Active,Levi's Active,Levi's,186.19,Men,SKU000086,5
+87,45.72,Jeans,Puma Jean,Puma,127.65,Women,SKU000087,4
+88,28.3,Jeans,Calvin Klein Jeans,Calvin Klein,63.15,Men,SKU000088,4
+89,99.9,Sweaters,Hurley Sweaters,Hurley,209.66,Men,SKU000089,1
+90,85.22,Sweaters,Carhartt Sweaters,Carhartt,145.83,Women,SKU000090,1
+91,4.88,Dresses,Bench Dresses,Bench,12.32,Women,SKU000091,2
+92,45.5,Swim,Carhartt Swim,Carhartt,106.59,Women,SKU000092,3
+93,120.06,Swim,Puma Swim,Puma,212.31,Women,SKU000093,2
+94,5.96,Shirts,Puma Shirts,Puma,13.44,Men,SKU000094,4
+95,83.1,Tops & Tees,Puma Tops & Tees,Puma,154.41,Women,SKU000095,1
+96,52.26,Suits,Zumba Suits,Zumba,135.29,Men,SKU000096,5
+97,54.95,Outerwear & Coats,Volcom Outerwear & Coat,Volcom,148.24,Men,SKU000097,3
+98,19.38,Suits,Diesel Suits,Diesel,30.37,Men,SKU000098,4
+99,64.66,Jeans,Fox Jeans,Fox,118.61,Men,SKU000099,5
+100,96.61,Shorts,Volcom Shorts,Volcom,183.06,Men,SKU000100,3
+101,59.57,Sweaters,Southpole Sweaters,Southpole,103.57,Women,SKU000101,5
+102,50.47,Sweaters,Calvin Klein Sweater,Calvin Klein,112.79,Men,SKU000102,4
+103,109.06,Sweaters,Allegra K Sweaters,Allegra K,194.63,Men,SKU000103,3
+104,79.78,Tops & Tees,Carhartt Tops & Tees,Carhartt,160.66,Women,SKU000104,2
+105,5.11,Shorts,Hurley Shorts,Hurley,11.66,Men,SKU000105,4
+106,44.5,Active,Puma Active,Puma,86.23,Men,SKU000106,3
+107,43.82,Active,Tommy Hilfiger Active,Tommy Hilfiger,78.13,Men,SKU000107,3
+108,13.69,Sweaters,Carhartt Sweaters,Carhartt,33.58,Men,SKU000108,1
+109,71.25,Dresses,Carhartt Dresses,Carhartt,164.58,Women,SKU000109,5
+110,20.56,Shirts,Bench Shirts,Bench,49.15,Men,SKU000110,2
+111,110.71,Sweaters,Calvin Klein Sweaters,Calvin Klein,214.55,Women,SKU000111,2
+112,4.61,Shirts,Bench Shirts,Bench,10.6,Men,SKU000112,4
+113,102.37,Tops & Tees,Allegra K Tops & Tees,Allegra K,207.51,Women,SKU000113,1
+114,60.72,Swim,Zumba Swim,Zumba,153.53,Women,SKU000114,5
+115,19.18,Shirts,Carhartt Shirts,Carhartt,33.11,Men,SKU000115,5
+116,55.18,Leggings,Tommy Hilfiger Leggings,Tommy Hilfiger,88.64,Women,SKU000116,3
+117,74.42,Sweaters,Puma Sweaters,Puma,139.66,Men,SKU000117,1
+118,24.0,Outerwear & Coats,Carhartt Outerwear & Coat,Carhartt,64.1,Women,SKU000118,2
+119,52.68,Dresses,Calvin Klein Dresse,Calvin Klein,94.61,Women,SKU000119,4
+120,41.3,Sweaters,Fox Sweaters,Fox,67.94,Women,SKU000120,1

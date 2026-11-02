@@ -1,0 +1,17 @@
+import "../ecommerce.malloy"
+
+#" Revenue, orders and top sellers across the sample catalog.
+# artifact { title="Ecommerce Overview" } dashboard {columns=6}
+query: overview is order_items -> {
+  # colspan=2
+  aggregate: total_revenue, order_count, customer_count
+  # colspan=4
+  nest:
+    # line_chart
+    revenue_by_month is by_month
+    # bar_chart
+    revenue_by_department is by_department
+    # bar_chart
+    revenue_by_category is by_category
+    top_products
+}
